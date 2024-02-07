@@ -1,7 +1,9 @@
 # 3D-Noise-Reduction-
 3D Noise Reduction 
 This is a 3DNR algorithm based on tracking
+
 一个基于跟踪的3DNR
+
 主要思路是运动块不是直接进行时域降噪，而是搜寻到上一帧的位置然后使用这个位置上的图像块来进行时域降噪
 
 DR_3D_KCF为主体程序
